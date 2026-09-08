@@ -1,46 +1,28 @@
 # Agents for Scientists
 
-AI coding agents are entering scientific work quickly, and most researchers adopt them without guidance on security, personal data, or good practice. This organization hosts the material for a hands-on workshop on using agentic coding tools for collaboration in scientific work.
+This is the workspace for the workshop on **29 September 2026** at Villa Hatt, ETH Zurich.
 
-All material is published as Open Educational Resources and is free for any group to reuse.
+## What you will find here
 
-**Sign up (for this and the companion workshop):** <https://forms.gle/Zf5fPsPJqUxEoLgKA>
+Your own repository, and everyone else's. Each participant creates one repository in this organization, puts their own data in it, and works in it all day. You can read each other's repositories, which is deliberate: looking at how someone else set a problem up for an agent is a good part of the learning.
 
-## The workshop
+## What we do
 
-Website: <https://agentsforsci-ghe.github.io/website/>
+We take the real work of writing a paper and run it three ways: without an agent, with an agent given a one-line instruction, and with an agent given a plan written down as GitHub issues first. Doing the same task three times is what makes the difference visible, rather than being told about it.
 
-### Agentic coding for collaboration and scientific work
+The second half of the day is about the record all of this leaves behind. Because the work runs through Git and GitHub, every change an agent made and every decision you made is already written down. We look at what that record is good for, and draft a response to the disclosure rules journals and research integrity bodies are writing right now.
 
-**Tuesday, 29 September 2026, 08:30 to 17:00**
+## Before the day
 
-[Villa Hatt, ETH Zurich](https://ethz.ch/en/campus/access/region-zurich/villa-hatt.html)
+Create your repository and add your data, then join the chat room. Both are described on the workshop website:
 
-A critical, hands-on introduction to agentic coding tools for research: what they do well, where the risks lie, and the do's and don'ts of daily use, including security concerns and personal data.
+<https://agentsforsci-ghe.github.io/website/>
 
-The day runs the real work of writing a paper under three conditions: as you do it now without agents, with an agent given minimal input, and with an agent given a proper plan and using GitHub issues. Comparing the three shows what the agent actually does for you, how the process can be documented, and where you stay involved in making decisions.
+Bring a dataset of your own, small enough to look at in one sitting. It does not need to be tidy. It must not contain personal or sensitive data: an agent reads whole folders and sends what it finds to a model, so anything in the repository can leave your machine.
 
-Participants work with their own data, in their own repository in this organization.
+## Prerequisite
 
-By the end of the workshop, participants will be able to:
-
-- Run an agent inside the Git workflow: give a coding agent a task, write its plan down as GitHub issues before any code is produced, then review what it produced as a pull request and accept or reject the change.
-- Judge the difference a plan makes: compare the output of an agent given minimal input against one given a reviewed plan, and say what changed and why.
-- Judge the difference documentation makes: compare what an agent does with a plain CSV against the same data published as a data package.
-- Declare agent use: point to the record the workflow produced and say what it shows about which parts of the work an agent touched.
-
-### Prerequisite
-
-This is the second of two workshops in the series. [Git for Scientists](https://gitforsci-ghe.github.io/website/) ran on 15 July 2026 and is the foundation this day builds on. Participants should be able to clone a repository, run the pull, stage, commit, push cycle, work with branches and pull requests, and open and close issues. No prior experience with AI coding agents is needed.
-
-## Transparent AI assistance
-
-Because the work runs through Git and GitHub, every action an agent takes and every decision a person makes is recorded as it happens. That record is what makes agent use traceable and declarable.
-
-Research integrity bodies are writing disclosure rules for scientific research now, while journal policies remain vague or missing. The workshop closes by drafting a response from what the group did in the room, built on two concrete mechanisms:
-
-- **Two kinds of commits.** Commits distinguish work done by the human from work done by the agent. The agent writes the commit message in both cases, so the full change is captured while the contribution stays attributed.
-- **A `prompts` folder.** The repository documents the prompts used for AI-assisted work, with timestamps and a clear link from each prompt to its commit.
+This builds directly on [Git for Scientists](https://gitforsci-ghe.github.io/website/) from 15 July 2026. You should be comfortable with branches, pull requests, and issues. No experience with AI coding agents is needed.
 
 ## Reuse
 
