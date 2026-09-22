@@ -10,11 +10,11 @@ Your own repository, and everyone else's. Each participant creates one repositor
 
 We take the real work of writing a paper and run it three ways: without an agent, with an agent given a one-line instruction, and with an agent given a plan written down as GitHub issues first. Doing the same task three times is what makes the difference visible, rather than being told about it.
 
-The second half of the day is about the record all of this leaves behind. Because the work runs through Git and GitHub, every change an agent made and every decision you made is already written down. We look at what that record is good for, and draft a response to the disclosure rules journals and research integrity bodies are writing right now.
+The second half of the day is about the record all of this leaves behind. Because the work runs through Git and GitHub, every change an agent made and every decision you made is already written down. We look at what that record is good for, and at the disclosure rules journals and research integrity bodies are writing right now. We will not write a response together; what the day shows feeds into the reproducibility community's contribution through the Global Federation of Reproducibility Networks.
 
 ## Before the day
 
-Create your repository and add your data, then join the chat room. Both are described on the workshop website:
+Create your repository and add your data, join the chat room, then set up the tools: Claude Code, the GitHub CLI, the connection to your R session, and Zotero. All nine steps are described on the workshop website:
 
 <https://agentsforsci-ghe.github.io/website/>
 
